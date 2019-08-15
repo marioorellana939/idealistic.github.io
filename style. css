@@ -1,0 +1,19 @@
+body{
+  background-color:lightblue;
+  padding: 50px;
+  color:#720707ff;
+  font-family: 'Fira Sans Condensed', sans-serif;
+  }
+.prototype{
+
+}
+footer{
+  padding:20px;
+  background-color:salmon ;
+}
+hr{
+  border:3px, solid purple;
+  padding: 2px;
+  background-color: aliceblue;
+  width: 100%;
+}
