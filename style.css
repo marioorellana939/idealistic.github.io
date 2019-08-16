@@ -4,7 +4,13 @@ body{
   color:#720707ff;
   font-family: 'Fira Sans Condensed', sans-serif;
   }
+.prototype{
+  background-color:burlywood;
+  padding: 20px;
+  width: 200px;
+}
 footer{
+  
   background-color:salmon ;
   border: 3px solid #720707ff;
 }
@@ -33,4 +39,10 @@ padding: .5% 1%;
 color: #720707ff;
 border: 2px solid purple;
 border-radius: 5px;
+}
+
+a.button:hover{
+  background:#720707ff;
+  color:pink;
+  
 }
