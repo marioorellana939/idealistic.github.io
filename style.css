@@ -4,16 +4,33 @@ body{
   color:#720707ff;
   font-family: 'Fira Sans Condensed', sans-serif;
   }
-.prototype{
-
-}
 footer{
-  padding:20px;
   background-color:salmon ;
+  border: 3px solid #720707ff;
 }
 hr{
-  border:3px, solid purple;
-  padding: 2px;
-  background-color: aliceblue;
+  border:2px;
+  padding:2px;
+  background-color:#720707ff;
   width: 100%;
+}
+p{
+  border-style:double;
+  border-color:lightblue;
+  border-width:5px;
+  display: inline-block;
+  height: 10%;
+  background: rgba(253, 0, 0, 0.432);
+  padding:7px;
+  margin:20px;
+}
+a.button{
+text-decoration:none;
+display:inline-block;
+background: pink;
+margin: 2%;
+padding: .5% 1%; 
+color: #720707ff;
+border: 2px solid purple;
+border-radius: 5px;
 }
