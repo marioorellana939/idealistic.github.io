@@ -1,16 +1,21 @@
 body{
+  background:url(\270);
   background-color:lightblue;
-  padding: 50px;
+  padding: 70px;
   color:#720707ff;
   font-family: 'Fira Sans Condensed', sans-serif;
   }
-.prototype{
-  background-color:burlywood;
-  padding: 20px;
-  width: 200px;
+a.prototype{
+  text-decoration:none;
+  padding:10px;
+  color:rgb(189, 239, 255); 
+}
+a.prototype:hover{
+  color:rgb(98, 195, 255);
+  font:bold;
 }
 footer{
-  
+  padding:15px;
   background-color:salmon ;
   border: 3px solid #720707ff;
 }
@@ -21,6 +26,7 @@ hr{
   width: 100%;
 }
 p{
+  text-align:center;
   border-style:double;
   border-color:lightblue;
   border-width:5px;
@@ -32,17 +38,44 @@ p{
 }
 a.button{
 text-decoration:none;
+font-family: 'Fira Sans Condensed', sans-serif;
 display:inline-block;
 background: pink;
 margin: 2%;
 padding: .5% 1%; 
-color: #720707ff;
+color: #720707ff; 
 border: 2px solid purple;
 border-radius: 5px;
+
 }
 
 a.button:hover{
   background:#720707ff;
   color:pink;
-  
+}
+ul{
+list-style-type:none;
+}
+ul.links{
+display:inline;
+}
+div{
+  width:20px;
+  height:20px;
+  background-color:#720707ff;
+}
+div:hover{
+  background-color:black
+}
+div.one{
+  background:yellow;
+  z-index:3;
+}
+div.two{
+  background:blue;
+    z-index:4;
+}
+div.three{
+background:#720707ff;
+  z-index:5;
 }
