@@ -1,7 +1,7 @@
 body{
   background:url(\270);
   background-color:lightblue;
-  padding: 70px;
+  padding: 20px 70px ;
   color:#720707ff;
   font-family: 'Fira Sans Condensed', sans-serif;
   }
@@ -61,8 +61,4 @@ list-style-type:none;
 }
 ul.links{
 display:inline;
-}
-div.three{
-background:#720707ff;
-  z-index:5;
 }
