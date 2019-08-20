@@ -5,12 +5,12 @@ body{
   color:#720707ff;
   font-family: 'Fira Sans Condensed', sans-serif;
   }
-a.prototype{
+a.link{
   text-decoration:none;
   padding:10px;
   color:rgb(189, 239, 255); 
 }
-a.prototype:hover{
+a.link:hover{
   color:rgb(98, 195, 255);
   font:bold;
 }
@@ -30,11 +30,14 @@ p{
   border-style:double;
   border-color:lightblue;
   border-width:5px;
-  display: inline-block;
+  display:inline-block;
+
   height: 10%;
+  width: 70%;
+  align-content:space-between;
   background: rgba(253, 0, 0, 0.432);
   padding:7px;
-  margin:20px;
+
 }
 a.button{
 text-decoration:none;
@@ -58,22 +61,6 @@ list-style-type:none;
 }
 ul.links{
 display:inline;
-}
-div{
-  width:20px;
-  height:20px;
-  background-color:#720707ff;
-}
-div:hover{
-  background-color:black
-}
-div.one{
-  background:yellow;
-  z-index:3;
-}
-div.two{
-  background:blue;
-    z-index:4;
 }
 div.three{
 background:#720707ff;
