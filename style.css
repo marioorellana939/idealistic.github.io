@@ -1,6 +1,7 @@
 body{
   background:url(\270);
   background-color:lightblue;
+   background-image: radial-gradient(white 80% , rgb(126, 205, 231) );
   padding: 20px 70px ;
   color:#720707ff;
   font-family: 'Fira Sans Condensed', sans-serif;
